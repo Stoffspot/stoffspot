@@ -97,7 +97,7 @@ const Navbar = () => {
     setIsMyComponentVisible(false);
   };
     return (
-        <nav className={`bg-[rgba(63,84,105,255)] w-full z-20 top-0 left-0 fixed shadow-slate-800`}>
+        <nav className={`bg-[#05184c] w-full z-20 top-0 left-0 fixed shadow-slate-800`}>
             <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">      
                 <div className={`flex items-center ${togglenavbar ? "hidden" : "block"}`}>
                     <a href="/home"><span className="self-center md:text-2xl text-xl tracking-normal md:tracking-[.5em] whitespace-nowrap text-white heading">STOFFSPOT</span></a>
